@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     max-width: 1440px;
     margin: 0 auto;
@@ -248,7 +250,9 @@ footer{
     height: 32px;
     width: 32px;
     background-color: #22213C;
-    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     cursor: pointer;
 }
